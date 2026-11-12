@@ -10,7 +10,7 @@ dotenv.config();
 dotenv.config({ path: ".env.local", override: false });
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Enable JSON parser for rich API payloads
 app.use(express.json({ limit: '10mb' }));
