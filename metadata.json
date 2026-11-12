@@ -1,0 +1,6 @@
+{
+  "name": "AuthentiScan AI",
+  "description": "Futuristic AI-powered fake product detection platform using vision analysis, QR/barcode audits, OCR, seller trust analytics, and simulated blockchain verification.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
